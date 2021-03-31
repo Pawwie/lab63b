@@ -6,9 +6,9 @@ void setup()
 	Serial.begin(115200);
 	pinMode(0, INPUT); #ตัวรับแสง LDR
 	pinMode(2, OUTPUT1); #แสงเลเซอร์
-  pinMode(3, OUTPUT2); #หลอดไฟสีแดง
-  pinMode(4, OUTPUT3); #หลอดไฟสีเขียว
-  pinMode(5, OUTPUT4); #หลอดไฟสีส้ม
+  	pinMode(3, OUTPUT2); #หลอดไฟสีแดง
+  	pinMode(4, OUTPUT3); #หลอดไฟสีเขียว
+  	pinMode(5, OUTPUT4); #หลอดไฟสีส้ม
 	Serial.println("\n\n\n");
 }
 
