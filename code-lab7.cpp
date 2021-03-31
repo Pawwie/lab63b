@@ -40,10 +40,11 @@ void loop()
             cnt++;
         
             void loop()
-            {
-              if val == 0 
-              {break();}
-             }
+            	{ 
+			int val = digitalRead(0);
+              		if val == 0 
+              		{break();}
+             	}
             }
     }
   digitalWrite(2, LOW);
